@@ -27,6 +27,7 @@ Where  is the amplitude spectrum. The saliency map is the inverse transform of t
 ### Straddling Superpixels (SS)
 
 The score represents the fraction of a window's area not straddled by external superpixel components:  
+
 $$\huge SS(w) = 1 - \frac{\sum_{s} \min(\text{area}(s_{in}), \text{area}(s_{out}))}{\text{area}(w)}$$
 
 ## 📂 Project Structure
